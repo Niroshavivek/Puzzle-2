@@ -1,0 +1,89 @@
+#div1{
+	height: 400px;
+	width: 400px;
+	background-color: #ADD8E6;
+	margin-left: 20px;
+	margin-top: 50px;
+	float: left;
+}
+#div2{
+float: left;
+margin-top: 80px;
+margin-left: 220px;
+}
+#div3{
+	height: 400px;
+	width: 400px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 50px;
+	border: 1px dotted red;
+}
+
+
+#heart{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 16px;
+}
+#heart1{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 3px;
+	color: #FFFFFF;
+
+
+}
+button{
+    height: 42px;
+    width: 42px;
+}
+.d1{
+    position:absolute;
+    top:0;
+    left:0;
+    width:55px;
+    height:55px;
+    background:white;
+    border-radius:50%;
+}
+.d2{
+    position:absolute;
+    top:0;
+    right: 0;
+    width:55px;
+    height:55px;
+    background:#969696;
+    border-radius:50%;
+}
+.a1{   width:600px;
+    height:200px;
+    top:250px;
+    left:190px;}
+.a2{
+    width:60px;
+    height:60px;
+     opacity:0;
+     cursor: pointer;
+    top:250px;
+    left:1110px;
+}
+.a1,.a2{
+    position:absolute;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-name:orbit;
+    -webkit-animation-duration:8s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-timing-function:linear;
+    -moz-animation-name:orbit;
+    -moz-animation-duration:8s;
+    
+}
+@-webkit-keyframes orbit { 
+from { transform: rotate(0deg)
+                   translate(-150px)
+                   rotate(0deg);} 
+to { transform: rotate(360deg)
+                   translate(-150px) 
+                   rotate(-360deg);} }
